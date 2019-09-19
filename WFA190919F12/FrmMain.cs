@@ -18,7 +18,7 @@ namespace WFA190919F12
             new FrmHelloWorld(), //0
             new FrmBtnEvents(), //1
             new FrmColorz(), //2
-            null, //3
+            new FrmTextFormat(), //3
             null, //4
             null, //5
             null, //6
