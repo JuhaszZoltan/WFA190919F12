@@ -19,7 +19,7 @@ namespace WFA190919F12
             new FrmBtnEvents(), //1
             new FrmColorz(), //2
             new FrmTextFormat(), //3
-            null, //4
+            new FrmMuveletek(), //4
             null, //5
             null, //6
             null, //7
@@ -49,7 +49,7 @@ namespace WFA190919F12
         private void ButtonClick(object sender, EventArgs e)
         {
             (sender as Button).BackColor = Color.Red;
-            var frm = referencia[(sender as Button).TabIndex];
+            Form frm = referencia[(sender as Button).TabIndex];
             frm.ShowDialog();
             (sender as Button).BackColor = Color.LightBlue;
         }

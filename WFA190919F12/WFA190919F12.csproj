@@ -76,6 +76,12 @@
     <Compile Include="FrmTextFormat.Designer.cs">
       <DependentUpon>FrmTextFormat.cs</DependentUpon>
     </Compile>
+    <Compile Include="Muveletek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muveletek.Designer.cs">
+      <DependentUpon>Muveletek.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmBtnEvents.resx">
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTextFormat.resx">
       <DependentUpon>FrmTextFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muveletek.resx">
+      <DependentUpon>Muveletek.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
