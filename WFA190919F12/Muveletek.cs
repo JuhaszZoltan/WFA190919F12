@@ -30,7 +30,7 @@ namespace WFA190919F12
             }
             else if (tbA.Text == "" || tbB.Text == "")
             {
-                MessageBox.Show("előbb töltsd ki a mezőket!");
+                MessageBox.Show("Előbb töltsd ki a mezőket!");
             }
             else if (!int.TryParse(tbA.Text, out _) || !int.TryParse(tbA.Text, out _))
             {
