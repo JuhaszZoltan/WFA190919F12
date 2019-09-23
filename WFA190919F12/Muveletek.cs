@@ -17,12 +17,21 @@ namespace WFA190919F12
             InitializeComponent();
             foreach (var btn in this.Controls)
             {
-                if(btn is Button) (btn as Button).Click += ButtonClick;
+                if (btn is Button)
+                {
+                    (btn as Button).Click += ButtonClick;
+                    (btn as Button).BackColor = Color.LightBlue;
+                }
             }
         }
 
         private void ButtonClick(object sender, EventArgs e)
         {
+            foreach (var btn in this.Controls)
+                if (btn is Button && btn != sender)
+                    (btn as Button).BackColor = Color.LightBlue;
+                else (sender as Button).BackColor = Color.Red;
+
             if ((sender as Button).Text == "Törlés")
             {
                 foreach (var tb in this.Controls)
