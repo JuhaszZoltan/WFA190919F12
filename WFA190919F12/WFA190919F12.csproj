@@ -64,11 +64,23 @@
     <Compile Include="FrmHelloWorld.Designer.cs">
       <DependentUpon>FrmHelloWorld.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmKocskadobasok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKocskadobasok.Designer.cs">
+      <DependentUpon>FrmKocskadobasok.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOsztok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOsztok.Designer.cs">
+      <DependentUpon>FrmOsztok.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmTextFormat.cs">
       <SubType>Form</SubType>
@@ -93,8 +105,14 @@
     <EmbeddedResource Include="FrmHelloWorld.resx">
       <DependentUpon>FrmHelloWorld.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmKocskadobasok.resx">
+      <DependentUpon>FrmKocskadobasok.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOsztok.resx">
+      <DependentUpon>FrmOsztok.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTextFormat.resx">
       <DependentUpon>FrmTextFormat.cs</DependentUpon>

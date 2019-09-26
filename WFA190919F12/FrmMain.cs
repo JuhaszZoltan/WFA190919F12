@@ -21,8 +21,8 @@ namespace WFA190919F12
             new FrmTextFormat(), //3
             new FrmMuveletek(), //4
             null, //5
-            null, //6
-            null, //7
+            new FrmKocskadobasok(), //6
+            new FrmOsztok(), //7
             null, //8
             null, //9
             null, //10
